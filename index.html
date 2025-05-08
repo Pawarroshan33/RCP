@@ -1,148 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class- name title>ROSHAN C. PAWAR & CO</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            padding-top: 60px;
-        }
-        .profile-img {
-            max-width: 200px;
-            border-radius: 10px;
-        }
-        .whatsapp-float {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #25D366;
-            color: rgb(82, 46, 113);
-            border-radius: 50%;
-            padding: 15px;
-            font-size: 24px;
-            z-index: 1000;
-        }
-        .whatsapp-float:hover {
-            text-decoration: none;
-            color: blue;
-            background-color: #128C7E;
-
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roshan C. Pawar & Co</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding-top: 60px;
+    }
+    .navbar {
+      background: linear-gradient(45deg, #4B0082, #6A5ACD);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+    .nav-link:hover {
+      color: #2ecc71 !important;
+    }
+    .section-title {
+      color: #4B0082;
+      margin-bottom: 20px;
+    }
+    .btn-success {
+      background-color: #2ecc71;
+      border: none;
+    }
+    .btn-success:hover {
+      background-color: #27ae60;
+    }
+    .profile-img {
+      max-width: 200px;
+      border-radius: 12px;
+      border: 3px solid #4B0082;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      z-index: 1000;
+    }
+    .whatsapp-float:hover {
+      background-color: #128C7E;
+    }
+    footer {
+      background-color: #4B0082;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Roshan C. Pawar & Co</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#pay">Pay Fees</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Home Section -->
-    <section id="home" class="py-5 text-center bg-light">
-        <div class="container">
-            <h1 class="display-5">Welcome to Roshan C. Pawar & Co</h1>
-            <p class="lead">Providing Trusted Chartered Accountancy Services In Nagpur, Maharashtra</p>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <h2>About Proprietor</h2>
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                    <img src="Photo_11zon.jpg" alt="Roshan Pawar" class="img-fluid profile-img">
-                </div>
-                <div class="col-md-8">
-                    <p>CA Roshan Pawar, is a qualified Chartered Accountant and proprietor of M/s Roshan C Pawar & Co. Young, energetic and dynamic Roshan, established his firm in year 2022. With an aim to be leader in the field, he started his office at Nagpur, quickly established its associates in Mumbai, Pune and Gondia.
-                        His passion for the profession led him to begin preparing for examination way before his 12th itself. After completing his higher secondary, he got admitted to premier institute “Sydenham College of Commerce & Economics”, Mumbai wherefrom he secured his graduation with excellent grades. Simultaneously he got opportunity to be associated with M/s D V Kalk & Associates, Mumbai, wherein he completed his mandatory articleship of 3.5 years as well.
-                        After completing articleship, CA Roshan Pawar joined M/s. C Vidyarthi & Co., Chartered accountant in Nagpur; one of the top 10 CA firms in Nagpur. Wherein he worked for 7 years as senior auditor and tax advisor for Nagpur and Mumbai branch.
-                        CA Roshan Pawar, has gathered vast experience in the journey so far.  Having worked as Article Clerk, Accountant, Tax Consultant, he could garner experience of working 
-                        </p>
-                    <!-- Download Visiting Card Button -->
-                <a href="Visiting Card.png" class="btn btn-success">Visiting card</a>
-            </div>
-            </div>
-        
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
-        <div class="container">
-            <h2>Services Offered</h2>
-            <ul>
-                <li>Income Tax Return Filing & Handaling Income Tax Appeal Representation</li>
-                <li>GST Registration & Compliance</li>
-                <li>Audit & Assurance</li>
-                <li>Income Tax Appeals</li>
-                <li>Business & Company Registrations</li>
-                <li>Consulting & Advisory Services</li>
-
-            </ul>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-<section id="contact" class="py-5">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <h2 class="text-center mb-4">Visit Our Office</h2>
-      <p class="text-center">
-        10th, Next to IIT Point, 2nd Flr, Sanskrutik Sankul,<br>
-        Jhansi Rani Square, Sita Burdi, Nagpur – 440012
-      </p>
-    
-
-
-      
-      <!-- Clickable Map -->
-      <div class="map-container mt-4" style="position: relative; cursor: pointer;">
-        <a href="https://www.google.com/maps/dir/?api=1&destination=Sanskrutik+Sankul,+Jhansi+Rani+Square,+Nagpur"
-           target="_blank"
-           title="Get Directions to our office"
-           style="display: block;">
-          <img
-            src="https://maps.googleapis.com/maps/api/staticmap?center=21.1473,79.0858&zoom=16&size=600x400&markers=color:red%7Clabel:O%7C21.1473,79.0858&key=YOUR_GOOGLE_MAPS_API_KEY"
-            alt="Map to Office"
-            style="width: 100%; height: auto; border: 1px solid #ccc;"
-          />
-        </a>
+      <a class="navbar-brand" href="#">Roshan C. Pawar & Co</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pay">Pay Fees</a></li>
+        </ul>
       </div>
     </div>
-    <p class="py-5 bg-light text-center"> Mobile No. +91 9503644414</p>
-    <p class="py-5 bg-light text-center"> E- Mail Id  caroshanpawar@gmail.com</p>
-    <!-- Pay Fees Section -->
-    <section id="pay" class="py-5 bg-light text-center">
-        <div class="container">
-            <h2>Pay Professional Fees</h2>
-            <p>Click the button below to pay via Google Pay UPI</p>
-            <a href="upi://pay?pa=pawarroshan33@okhdfcbank&pn=Roshan%20C%20Pawar&cu=INR" class="btn btn-success">Pay Now</a>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="display-5">Welcome to Roshan C. Pawar & Co</h1>
+      <p class="lead">Providing Trusted Chartered Accountancy Services In Nagpur, Maharashtra</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">About Proprietor</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="Photo_11zon.jpg" alt="Roshan Pawar" class="img-fluid profile-img">
         </div>
-    </section>
+        <div class="col-md-8">
+          <p>CA Roshan Pawar is a Chartered Accountant and founder of M/s Roshan C Pawar & Co, based in Nagpur. With a rich experience across Mumbai, Pune, and Gondia, he offers strategic and compliant solutions in Tax, Audit, and Registration services. A Sydenham graduate and ex-employee of top CA firms, Roshan’s goal is to provide simplified financial services to individuals and businesses.</p>
+          <a href="Visiting Card.png" class="btn btn-success">Download Visiting Card</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- WhatsApp Button -->
-    <a href="https://wa.me/919503644414" class="whatsapp-float" target="_blank">
-        <img src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="WhatsApp"/>
-    </a>
+  <!-- Services -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Our Services</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li>Income Tax Return Filing & Appeal Representation</li>
+            <li>GST Registration & Compliance</li>
+            <li>Audit & Assurance</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Business & Company Registrations</li>
+            <li>Consulting & Advisory</li>
+            <li>Appeals & Refunds Processing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Visit Our Office</h2>
+      <p>10th, Next to IIT Point, 2nd Flr, Sanskrutik Sankul, <br>Jhansi Rani Square, Sita Burdi, Nagpur – 440012</p>
+      <p>📞 +91 9503644414 | 📧 caroshanpawar@gmail.com</p>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Sanskrutik+Sankul,+Jhansi+Rani+Square,+Nagpur" target="_blank">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=21.1473,79.0858&zoom=16&size=600x300&markers=color:red%7Clabel:O%7C21.1473,79.0858&key=YOUR_GOOGLE_MAPS_API_KEY" alt="Map" style="width:100%; max-width:600px; border:1px solid #ccc;">
+      </a>
+    </div>
+  </section>
+
+  <!-- Payments -->
+  <section id="pay" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2 class="section-title">Pay Professional Fees</h2>
+      <p>Choose any payment option below:</p>
+      <a href="upi://pay?pa=pawarroshan33@okhdfcbank&pn=Roshan%20C%20Pawar&cu=INR" class="btn btn-success m-2">Pay via Google Pay (UPI)</a>
+      <a href="https://rzp.io/l/YOUR_RAZORPAY_LINK" class="btn btn-outline-dark m-2">Pay via Razorpay</a>
+      <a href="https://www.paypal.com/ncp/payment/DTB73RXVVFRTC" class="btn btn-outline-primary m-2">Pay via PayPal (International)</a>
+    </div>
+  </section>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919503644414" class="whatsapp-float" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="WhatsApp"/>
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Roshan C. Pawar & Co | All Rights Reserved
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
